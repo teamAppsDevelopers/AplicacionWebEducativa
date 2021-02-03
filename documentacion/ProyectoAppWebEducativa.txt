@@ -1,0 +1,58 @@
+////////////////////////////
+///PROYECTO APP EDUCATIVA///
+///////////////////////////
+
+
+||Lenguajes||
+Back->Node(Si usamos Firebase para que complicarse, por que no usar React?)
+Front->React
+
+Front/Back->Js
+
+
+||DB||
+No Relacional->Firebase
+
+
+
+
+||Tutoriales/Referencias||
+
+Curso completo de React con  Hooks, Redux, Context, Firebase  2020(Bluuweb) PROYECTO CRUD
+https://www.youtube.com/watch?v=Di4eAxkPNp0&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD
+
+
+Curso completo de React  Hooks, Redux, Context, Firebase(Raul Palacios) PROYECTO AGREGAR EJERCICIOS CON MAQUETADO Y DEMAS A LISTA DE EJERCICIOS
+https://www.youtube.com/watch?v=yFAIMEupsuo&list=PLIddmSRJEJ0vEBB6ECegg35IQ-sWjSDdo&index=1
+
+Aplicacion Buscador de productos hacia Api publica
+https://www.youtube.com/watch?v=hScR513gvNo
+
+
+||Comienzo de Desarrolo||
+
+Se define principalmente la estructura de la db, esta sera mismo en firebase y se agrega la estructura(lo explico en un github) en formato JSON
+por el momento creamos en la vista un componente electronico para arrastrar sus partes y completar el mismo, si no coincide nos muestra un error
+y de esa forma se explica el porque del mismo, la persona intenta de nuevo, si coincide se muestra un msj de felicitaciones y se da un detalle de funcionamiento
+con algun video o alguna guia(TODO INTERACTIVO) hasta completar todo
+
+¿Como se me ocurre esto? Con animaciones en js-> https://www.w3schools.com/js/js_htmldom_animate.asp usando fotos en vez de containers y todo lo que se quiera
+
+Acá mas ejemplos->http://www.ajaxshake.com/es/JS/12601/animacion.html
+
+Mirá estos->https://developer.mozilla.org/es/docs/Web/Guide/HTML/Canvas_tutorial/Basic_animations
+
+
+--------------------------------YENDO AL GRANO------------------------------------
+Por lo que busqué lo que nos interesa tecnicacmente se llama DRAG AND DROP y se implementa con la API de HTML
+MIRA->https://www.w3schools.com/html/html5_draganddrop.asp
+
+Ej tuto videos->
+https://www.youtube.com/watch?v=-N515SDoYuU
+https://www.youtube.com/watch?v=TgtKzeBXeeQ
+https://www.youtube.com/watch?v=258hPv9YMBI
+
+
+LA PREGUNTA CLAVE ES...VALE LA PENA LA INVERSION DE TIEMPO DE APRENDER REACT PARA ESTE PEUQEÑO DESARROLLO INICIAL?? RECORDAR QUE ESTAMOS 
+USANDO UNA DB EN LA NUBE SIN NINGUN TIPO DE GESTION COMO LO ES FIREBASE.EL PUNTO ES HACER ALGO VISTOSO, INTENTAR APLICAR BOOTSTRAP SERIA 
+UNA BUENA OPCION PARA LA VISTA
