@@ -11,22 +11,22 @@
 
 ## Manejo de Git Flow
 
-### 1) Una vez clonado el repo pararse sobre la rama de trabajo (en este caso  `develop` ).
+#### 1) Una vez clonado el repo pararse sobre la rama de trabajo (en este caso  `develop` ).
 * ```git checkout develop```
 
-### 2) Inicializar git sobre esa rama
+#### 2) Inicializar git sobre esa rama
 * ```git init```
 
-### 3) Inicializar git flow sobre la misma rama.Asegurarse que la rama de produccion sea `master` y la rama de release sea `develop` , (por qué sino todos los features van a ser una copia del master y no de la rama develop).
+#### 3) Inicializar git flow sobre la misma rama.Asegurarse que la rama de produccion sea `master` y la rama de release sea `develop` , (por qué sino todos los features van a ser una copia del master y no de la rama develop).
 * ```git flow init```
 
-### 4) Creamos un Nuevo feature 
+#### 4) Creamos un Nuevo feature 
 * ```git flow feature start images```
 
-### 4) Para Borrar un feature 
+#### 4) Para Borrar un feature 
 * ```git flow feature finish images```
 
-### 5) Para subir cambios al server git simple.
+#### 5) Para subir cambios al server git simple.
 * ```git status``` 
 *  ```git add *``` 
 *  ```git commit -m ...``` 
