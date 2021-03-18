@@ -51,8 +51,8 @@ db.collection("users").add({
 
 ## Manejo de Git Flow
 
-# Una vez clonado el repo pararse sobre la rama de trabajo (en este caso ```develop```).
-## ```git checkout develop```
+* Una vez clonado el repo pararse sobre la rama de trabajo (en este caso ```develop```).
+** ```git checkout develop```
 
 # Inicializar git sobre esa rama
 ## ```git init```
