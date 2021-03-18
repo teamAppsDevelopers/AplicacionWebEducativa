@@ -2,6 +2,37 @@
 
 **Se desarrolla una aplicación Web educativa acerca de informática para todas las edades. Desde actividades simples en este área para los mas jóvenes hasta mas complejas para los adultos**
 
+</br>
+
+## PlayList de Encuentros: https://www.youtube.com/playlist?list=PLCl11UFjHurCpL6_QQ5rz63FbKVxoepML
+
+
+</br>
+
+## Manejo de Git Flow
+
+### 1) Una vez clonado el repo pararse sobre la rama de trabajo (en este caso  `develop` ).
+* ```git checkout develop```
+
+### 2) Inicializar git sobre esa rama
+* ```git init```
+
+### 3) Inicializar git flow sobre la misma rama.Asegurarse que la rama de produccion sea `master` y la rama de release sea `develop` , (por qué sino todos los features van a ser una copia del master y no de la rama develop).
+* ```git flow init```
+
+### 4) Creamos un Nuevo feature 
+* ```git flow feature start images```
+
+### 4) Para Borrar un feature 
+* ```git flow feature finish images```
+
+### 5) Para subir cambios al server git simple.
+* ```git status``` 
+*  ```git add *``` 
+*  ```git commit -m ...``` 
+*  ```git push https://github.com/teamAppsDevelopers/AplicacionWebEducativa.git```
+
+
 
 </br>
 
@@ -46,32 +77,6 @@ db.collection("users").add({
 });
 
 ```
-
-</br>
-
-## Manejo de Git Flow
-
-### 1) Una vez clonado el repo pararse sobre la rama de trabajo (en este caso ```develop``` ).
-* ```git checkout develop```
-
-### 2) Inicializar git sobre esa rama
-* ```git init```
-
-### 3) Inicializar git flow sobre la misma rama.Asegurarse que la rama de produccion sea ```master``` y la rama de release sea ```develop``` ,(por qué sino todos los features van a ser una copia del master y no de la rama develop).
-* ```git flow init```
-
-### 4) Creamos un Nuevo feature 
-* ```git flow feature start images```
-
-### 4) Para Borrar un feature 
-* ```git flow feature finish images```
-
-### 5) Para subir cambios al server git simple.
-* ```git status``` 
-*  ```git add *``` 
-*  ```git commit -m ...``` 
-*  ```git push https://github.com/teamAppsDevelopers/AplicacionWebEducativa.git```
-
 
 
 
