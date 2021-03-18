@@ -66,7 +66,11 @@ db.collection("users").add({
 ### 4) Para Borrar un feature 
 * ```git flow feature finish images```
 
-### 5) Para subir cambios al server git simple, ```git status``` , ```git add *``` , ```git commit -m ...``` , ```git push https://github.com/teamAppsDevelopers/AplicacionWebEducativa.git```
+### 5) Para subir cambios al server git simple.
+* ```git status``` 
+*  ```git add *``` 
+*  ```git commit -m ...``` 
+*  ```git push https://github.com/teamAppsDevelopers/AplicacionWebEducativa.git```
 
 
 
